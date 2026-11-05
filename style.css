@@ -11,13 +11,11 @@
 
     background-image: url("https://overless-pixel.github.io/aiky-controller/controller.png");
     background-repeat: no-repeat;
-    background-position: center 100px;
-    background-size: 100% 100%;
+    background-position: center center;
+    background-size: contain;
 
     position: relative;
-
 }
-
 /* FOND TRANSPARENT */
 html, body {
     background: transparent !important;
