@@ -1,0 +1,102 @@
+
+/* ==================================
+   7AIKY CUSTOM SKIN - PS4
+   Gamepad Viewer / DualShock 4
+   ================================== */
+
+/* MANETTE */
+.controller.ds4 {
+    width: 806px;
+    height: 598px;
+
+    background-image: url("URL_DE_TON_PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+    position: relative;
+}
+
+/* FOND TRANSPARENT */
+html, body {
+    background: transparent !important;
+}
+
+/* PAVÉ TACTILE */
+.ds4 .touchpad {
+    background: transparent !important;
+}
+
+.ds4 .touchpad.pressed {
+    background: rgba(255,255,255,0.18) !important;
+    box-shadow: 0 0 15px rgba(255,255,255,0.7);
+    border-radius: 12px;
+}
+
+/* CROIX DIRECTIONNELLE */
+.ds4 .face {
+    background: none !important;
+}
+
+.ds4 .face.pressed {
+    background: rgba(255,255,255,0.35) !important;
+    box-shadow: 0 0 12px white;
+    border-radius: 8px;
+}
+
+/* TOUCHES △ □ ○ ✕ */
+.ds4 .button {
+    background: transparent !important;
+    transition: 0.08s ease;
+}
+
+.ds4 .button.pressed {
+    background: rgba(255,255,255,0.35) !important;
+    box-shadow: 0 0 18px rgba(255,255,255,0.9);
+    border-radius: 50%;
+}
+
+/* JOYSTICKS */
+.ds4 .stick {
+    background: transparent !important;
+}
+
+.ds4 .stick.pressed {
+    border: 3px solid rgba(255,255,255,0.8);
+    border-radius: 50%;
+    box-shadow: 0 0 15px white;
+}
+
+/* L1 / R1 */
+.ds4 .bumper {
+    background: transparent !important;
+}
+
+.ds4 .bumper.pressed {
+    background: rgba(255,255,255,0.4) !important;
+    box-shadow: 0 0 12px white;
+}
+
+/* L2 / R2 */
+.ds4 .trigger {
+    background: transparent !important;
+}
+
+.ds4 .trigger.pressed {
+    opacity: 0.8 !important;
+    background: rgba(255,255,255,0.3) !important;
+}
+
+/* SHARE / OPTIONS */
+.ds4 .back.pressed,
+.ds4 .start.pressed {
+    opacity: 1 !important;
+    background-color: rgba(255,255,255,0.4);
+}
+
+/* BOUTON PS */
+.ds4 .meta.pressed {
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    box-shadow: 0 0 15px white;
+}
